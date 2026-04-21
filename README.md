@@ -68,7 +68,7 @@ soundwel_multimodal/
 Open `config.py` and confirm `AUDIO_DIR`, `SPEC_DIR`, `ANNOTATIONS_FILE`,
 `AUDIO_COL`, `SPEC_COL`, and `LABEL_COL` match your data.
 
-### 4. Run in order
+### 4. Inspect some codes independently
 
 ```bash
 python dataset.py   # verify splits and tensor shapes
