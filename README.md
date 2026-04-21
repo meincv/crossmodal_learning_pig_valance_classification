@@ -38,7 +38,6 @@ soundwel_multimodal/
 ├── evaluate.py        ← evaluate() + print_test_report()
 ├── train.py           ← Training loop, scheduler, plots
 ├── soundwel_demo.ipynb← Interactive walkthrough notebook
-├── LAB_INSTRUCTIONS.md← Student lab guide
 └── README.md
 ```
 
@@ -120,10 +119,4 @@ Results will vary by dataset size and split.  Typical ranges observed:
 
 ---
 
-## Citation
 
-If you use SoundWel data, please cite the original dataset paper.
-
----
-
-*Pattern Learning Fundamentals — Dr. Ehsan Yaghoubi*
