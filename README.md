@@ -93,21 +93,6 @@ Or open `soundwel_demo.ipynb` for an interactive walkthrough.
 
 ---
 
-## Lecture connection
-
-This project directly implements concepts from the **Cross-Modal and Multimodal
-Learning** lecture:
-
-| Lecture concept | Where in code |
-|---|---|
-| Heterogeneous modalities (Slide 4) | Two different input formats in `dataset.py` |
-| Unimodal representations (Slide 9) | Separate ResNet branches in `model.py` |
-| Multimodal fusion — Hybrid (Slide 13) | `torch.cat` + MLP in `model.py` |
-| Supervised learning (Slide 10) | Cross-entropy loss in `train.py` |
-| Quantification / ablation (Slide 12) | Experiment A/B in lab instructions |
-
----
-
 ## Expected results
 
 Results will vary by dataset size and split.  Typical ranges observed:
